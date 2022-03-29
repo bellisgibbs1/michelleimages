@@ -95,7 +95,6 @@ figcaption {
 
 /** Images are allowed to be a little wider when broken out into their own container */
 
-
 figure,
 img {
     /* Sets image width to match parent */
@@ -104,6 +103,11 @@ img {
     display: block;
     margin: 0 auto;
 
+}
+
+#top {
+    width: 50%;
+    max-height: 50vh;
 }
 .container.image {
     max-width: 1200px;
@@ -167,8 +171,8 @@ img {
     left: 52%
 }
 
-.purple{
-    background-color:  rgba(235, 139, 248, 0.65);
+.red{
+    background-color:  rgba(235, 61, 61, 0.65);
 }
 
 #harlem:not(.active) {
@@ -176,8 +180,8 @@ img {
     left: 90%;
 }
 
-.orange{
-        background-color:  rgba(247, 177, 112, 0.65);
+.darkorange{
+        background-color:  rgba(255, 128, 78, 0.65);
     }
 
 #prince:not(.active) {
@@ -194,6 +198,25 @@ img {
         left: 90%;
     }
 
+
+.orange{
+    background-color: rgba(238, 103, 13, 0.65);
+}
+
+#read:not(.active) {
+    top: 90%;
+    left: 90%;
+}
+
+
+.purple{
+    background-color: rgba(232, 170, 248, 0.65);
+}
+
+#hand:not(.active) {
+    top: 90%;
+    left: 90%;
+}
 
 
 
@@ -212,6 +235,8 @@ img {
 .dot.active .close {
     display: block;
 }
+
+
 
 
 /*********************************************************************
