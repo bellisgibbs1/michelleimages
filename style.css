@@ -32,7 +32,6 @@ html {
     /* Sets default font-size to 16px, ensuring 1em = 16px; */
     font-size: 16px;
     font-family:  sans-serif;
-    background-color: bisque;
 }
 
 
@@ -100,7 +99,7 @@ figcaption {
 figure,
 img {
     /* Sets image width to match parent */
-    width: 50%;
+    width:  100%;
     float: center;
     display: block;
     margin: 0 auto;
@@ -173,8 +172,8 @@ img {
 }
 
 #harlem:not(.active) {
-    top: 80%;
-    left: 70%;
+    top: 90%;
+    left: 90%;
 }
 
 .orange{
@@ -182,8 +181,8 @@ img {
     }
 
 #prince:not(.active) {
-        top: 80%;
-        left: 70%;
+        top: 90%;
+        left: 90%;
     }
 
 .yellow{
@@ -191,9 +190,11 @@ img {
     }
 
 #reading:not(.active) {
-        top: 80%;
-        left: 70%;
+        top: 90%;
+        left: 90%;
     }
+
+
 
 
 .dot.active{
